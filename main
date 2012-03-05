@@ -1,0 +1,6 @@
+rm -R config_openbox
+cp -R ~/.config/openbox config_openbox
+git add .
+git commit -m 'configs: `date`'
+git remote add origin git@github.com:2kgit/arch-config.git
+git push -u origin master
