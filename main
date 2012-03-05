@@ -1,6 +1,14 @@
-rm -R config_openbox
-cp -R ~/.config/openbox config_openbox
+DATE=`date`
+
+mkdir -p openbox_config
+mkdir -p tint2_config
+mkdir -p tilda_config
+
+cp -R ~/.config/openbox openbox_config
+cp ~/.config/tint2/tint2rc tint2_config/tint2rc
+cp -R ~/.tilda tilda_config
+
 git add .
-git commit -m 'configs: `date`'
+git commit -m 'configs: $DATE'
 git remote add origin git@github.com:2kgit/arch-config.git
 git push -u origin master
