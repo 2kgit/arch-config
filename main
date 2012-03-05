@@ -15,5 +15,5 @@ cp ~/.xinitrc .xinitrc
 
 git add .
 git commit -am "configs: $DATE"
-git remote add origin git@github.com:2kgit/arch-config.git
+#git remote add origin git@github.com:2kgit/arch-config.git
 git push -u origin master
