@@ -12,6 +12,7 @@ cp -R ~/.tilda/ tilda_config
 cp ~/.bashrc .bashrc
 cp ~/.bash_logout .bash_logout
 cp ~/.xinitrc .xinitrc
+cp ~/.config/Terminal/terminalrc terminalrc
 
 git add .
 git commit -am "configs: $DATE"
