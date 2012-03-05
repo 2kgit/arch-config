@@ -1,3 +1,5 @@
+#!/bin/bash
+
 DATE=`date`
 
 mkdir -p openbox_config
