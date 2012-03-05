@@ -9,6 +9,9 @@ mkdir -p tilda_config
 cp -R ~/.config/openbox openbox_config
 cp ~/.config/tint2/tint2rc tint2_config/tint2rc
 cp -R ~/.tilda tilda_config
+cp ~/.bashrc .bashrc
+cp ~/.bash_logout .bash_logout
+cp ~/.xinitrc .xinitrc
 
 git add .
 git commit -am "configs: $DATE"
